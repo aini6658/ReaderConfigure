@@ -1,0 +1,32 @@
+﻿生成启动时间为 2017/6/7 17:50:01。
+     1>项目“E:\code\vc\ReaderConfigure\ReaderConfigure\ReaderConfigure.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _CRT_NON_CONFORMING_SWPRINTFS /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\ReaderConfigure.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _CRT_NON_CONFORMING_SWPRINTFS /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\ReaderConfigure.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt COMPortUI.cpp hexeditctrl.cpp Main.cpp App.cpp CReader.cpp CUSBPortUI.cpp CReaderUI.cpp
+         CReaderUI.cpp
+         CUSBPortUI.cpp
+         CReader.cpp
+         App.cpp
+         Main.cpp
+         hexeditctrl.cpp
+         COMPortUI.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /Ix64\Debug\ /nologo /fo"x64\Debug\ReaderConfigure.res" ReaderConfigure.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code\vc\ReaderConfigure\x64\Debug\ReaderConfigure.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\code\vc\ReaderConfigure\x64\Debug\ReaderConfigure.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code\vc\ReaderConfigure\x64\Debug\ReaderConfigure.lib" /MACHINE:X64 x64\Debug\ReaderConfigure.res
+         x64\Debug\COMPortUI.obj
+         x64\Debug\hexeditctrl.obj
+         x64\Debug\Main.obj
+         x64\Debug\App.obj
+         x64\Debug\CReader.obj
+         x64\Debug\CUSBPortUI.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\CReaderUI.obj
+     1>mfc120ud.lib(mfc120ud.dll) : fatal error LNK1112: 模块计算机类型“X86”与目标计算机类型“x64”冲突
+     1>已完成生成项目“E:\code\vc\ReaderConfigure\ReaderConfigure\ReaderConfigure.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.59
